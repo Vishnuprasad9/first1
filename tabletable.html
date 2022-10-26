@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .sp{
+            color: red;
+        }
+        label{
+            text-align: left;
+        }
+        body{
+            background-color: yellow;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Register Page</h1>
+        <form>
+            <table>
+               
+                <tr>
+                    <label for="name"><b>Name :<span class="sp">*</span></b></label>
+                    <input type="text" placeholder="Enter name" name="Lname" required><br><br>
+                </tr>
+                <tr>
+                    <label for="email"><b>Enter your email:<span class="sp">*</span></b></label>
+                    <input type="email" placeholder="Enter email"id="email" name="email" required><br><br>
+                </tr>
+                <tr>
+                    <label for="psw"><b>Password: <span class="sp">*</span></b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+                </tr>
+                <tr>
+                    <label for="birthday"><b>Birthday:</b></label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                </tr>
+                <tr>
+                    <label for="Phone number"><b>Phone Number: <span class="sp">*</span></b></label>
+                    <input type="tel" placeholder="Enter phone number: "id="phone" name="phone" maxlength="10"> <br><br>
+                </tr>
+                <tr>
+                    <label for="Nationality"><b>Nationality:</b></label>
+                    <input type="text" id="email" name="email" value="Indian" readonly><br><br>
+                </tr>
+                <tr>
+                    <label for="zip"><b>Enter zip:</b></label>
+                    <input type="text" placeholder="Enter zip"id="email" name="email"  disabled><br><br>
+                </tr>
+                <tr>
+                    <label for="zip"><b>agree:</b></label>
+                    <input type="checkbox" id="email" name="email" ><br><br>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
