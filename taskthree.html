@@ -1,0 +1,73 @@
+<body>
+    <style type="text/css">
+        .divTable
+        {
+            display:  table;
+            width:auto;
+            background-color:#eee;
+            border:1px solid  #666666;text-align: center;
+            border-spacing:5px;/*cellspacing:poor IE support for  this*/
+           /* border-collapse:separate;*/
+        }
+    
+        .divRow
+        {s
+           display:table-row;
+           width:auto;
+        }
+    
+        .divCell
+        {
+            float:left;/*fix for  buggy browsers*/
+            display:table-column;
+            width:200px;
+            border: 1px solid;
+        }
+        
+        #form1{
+            display: flex;
+            justify-content: center;
+            margin: 20% 0;
+        }
+        
+        .headrow{
+            color:black;
+            font-weight: bolder;
+            
+        }
+        
+        .divheader{
+            padding: 20px 0;
+            background-color: blue;
+            float:left;/*fix for  buggy browsers*/
+            display:table-column;
+            width:200px;
+            border: 1px solid;
+        }
+    </style>
+    <form id="form1">
+        <div class="divTable">
+               <div class="headRow">
+                  <div class="divheader" align="center">Customer ID</div>
+                  <div  class="divheader">Customer Name</div>
+                  <div  class="divheader">Customer Address</div>
+               </div><br>
+              <div class="divRow">
+                    <div class="divCell">001</div>
+                  <div class="divCell">002</div>
+                  <div class="divCell">003</div>
+              </div><br>
+              <div class="divRow">
+                  <div class="divCell">xxx</div>
+                  <div class="divCell">yyy</div>
+                  <div class="divCell">www</div>
+             </div><br>
+              <div class="divRow">
+                  <div class="divCell">ttt</div>
+                  <div class="divCell">uuu</div>
+                  <div class="divCell">Mkkk</div>
+             </div>
+  
+        </div>
+    </form>
+  </body>
